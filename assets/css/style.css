@@ -12,6 +12,14 @@
     max-width: 1140px !important;
 }
 
+.custum-1390 {
+    max-width: 1390px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .bg-nav {
     background-color: #3A3939;
 }
@@ -104,6 +112,7 @@
     bottom: 22%;
     left: 6%;
 }
+
 .lower-right-clip {
     position: absolute;
     bottom: 13%;
@@ -114,6 +123,18 @@
     position: absolute;
     top: 3%;
     right: 17%;
+}
+
+.esport-card img {
+    border-radius: 15px;
+}
+
+.gap-21 {
+    gap: 21px;
+}
+
+.bg-esport {
+    background-color: #FFF9E4;
 }
 
 .contactus {
