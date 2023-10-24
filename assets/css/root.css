@@ -19,6 +19,7 @@
     --color-tersiary-gray: #656565;
     --color-gray-less: #504F4F;
     --color-light-gary: #BABABA;
+    --color-light-gary-2: #B9B9B9;
     --color-yellow: #FFCF23;
     --ff-main: Montserrat Alternates;
 }
@@ -94,6 +95,9 @@
 .color-light-gray {
     color: var(--color-light-gary);
 }
+.color-light-gray-2 {
+    color: var(--color-light-gary-2);
+}
 
 .color-yelow {
     color: var(--color-yellow);
@@ -107,19 +111,5 @@
         --fs-xl: 42px;
         --fs-2xl: 44px;
         --fs-3xl: 62px;
-        /* color  */
-        --color-white: #FAFAFA;
-        --color-primery-white: #E7E6E5;
-        --color-secandary-white: #E5E5E5;
-        --color-tersiary-white: #E6E1CE;
-        --color-white-less: #FFF9E4;
-        --color-gray: #3C3C3C;
-        --color-primery-gray: #50504F;
-        --color-secandary-gray: #504F4D;
-        --color-tersiary-gray: #656565;
-        --color-gray-less: #504F4F;
-        --color-light-gary: #BABABA;
-        --color-yellow: #FFCF23;
-        --ff-main: Montserrat Alternates;
     }
 }
