@@ -9,6 +9,7 @@
     --fs-3xl: 32px;
     /* color  */
     --color-white: #FAFAFA;
+    --color-white-2: #FAF6F0;
     --color-primery-white: #E7E6E5;
     --color-secandary-white: #E5E5E5;
     --color-tersiary-white: #E6E1CE;
@@ -22,6 +23,11 @@
     --color-light-gary-2: #B9B9B9;
     --color-yellow: #FFCF23;
     --ff-main: Montserrat Alternates;
+    --ff-primery: Raleway;
+}
+
+.ff-primery {
+    font-family: var(--ff-primery);
 }
 
 .ff-main {
@@ -95,8 +101,13 @@
 .color-light-gray {
     color: var(--color-light-gary);
 }
+
 .color-light-gray-2 {
     color: var(--color-light-gary-2);
+}
+
+.color-white-2 {
+    color: var(--color-white-2);
 }
 
 .color-yelow {

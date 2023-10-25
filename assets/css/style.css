@@ -73,7 +73,182 @@
 .book-call:hover {
     box-shadow: 5px 5px 0px 0px var(--color-gray);
 }
-.border-top-custum{border-top: 1px solid #4F4E4E;}
+
+.mw-612 {
+    max-width: 612px;
+}
+
+.ellipes-service-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 300px;
+    width: 100%;
+    height: 138px;
+    border-radius: 300px;
+    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    filter: blur(239px);
+}
+
+.pollygon-service {
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    max-width: 16px;
+    max-height: 23px;
+}
+
+.ellipes-service-two {
+    position: absolute;
+    bottom: 0;
+    right: -20%;
+    max-width: 300px;
+    width: 100%;
+    height: 138px;
+    border-radius: 300px;
+    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    filter: blur(239px);
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
+.border-top-custum {
+    border-top: 1px solid #4F4E4E;
+}
+
+.mw-1138 {
+    max-width: 1138px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bb-cancel {
+    border-bottom: 1px solid #D8D3C2;
+}
+
+.getstarted {
+    border-radius: 5px;
+    border: 2px solid var(--color-gray);
+    padding: 16px 50px;
+    background-color: transparent;
+}
+
+.prices-longpepic {
+    position: absolute;
+    top: 2px;
+    max-width: 133px;
+    max-height: 106px;
+    left: 0;
+}
+
+.card-price-plan {
+    padding: 56px 32px 32px 31px;
+    border-radius: 15px;
+    border: 1px solid var(--BLACK, #3C3C3C);
+    transition: all 300ms linear;
+    height: 100%;
+}
+
+.card-prize-upper-card {
+    padding: 12px 25px;
+    border-radius: 45px;
+    transition: all 300ms linear;
+    border: 1px solid var(--color-gray);
+    background: #FFF9E4;
+}
+
+.set-uppercard {
+    position: absolute;
+    left: 24px;
+    top: -32px;
+    transition: all 300ms linear;
+}
+
+.card-price-plan:hover {
+    border: 1px solid var(--color-yellow);
+    box-shadow: 10px 10px 0px 0px var(--color-yellow);
+}
+
+.card-price-plan:hover .card-prize-upper-card {
+    border: 1px solid transparent;
+    background: var(--color-yellow);
+}
+
+.card-price-plan:hover .getstarted {
+    border: 2px solid #988353;
+
+}
+
+.sarvicecard-row-one {
+    padding: 14px 7px;
+    text-wrap: nowrap;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    transition: all 300ms linear;
+}
+
+.sarvicecard-row-one:hover {
+    border: 1px solid var(--color-yellow);
+    box-shadow: 5px 5px 0px 0px var(--color-yellow);
+}
+
+.sarvicecard-row-two {
+    padding: 14px 7px;
+    text-wrap: nowrap;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    transition: all 300ms linear;
+}
+
+.sarvicecard-row-two:hover {
+    border: 1px solid var(--color-yellow);
+    box-shadow: 5px 5px 0px 0px var(--color-yellow);
+}
+
+.sarvicecard-row-three {
+    padding: 14px 7px;
+    text-wrap: nowrap;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    transition: all 300ms linear;
+}
+
+.sarvicecard-row-three:hover {
+    border: 1px solid var(--color-yellow);
+    box-shadow: 5px 5px 0px 0px var(--color-yellow);
+}
+
+.sarvicecard-row-four {
+    padding: 14px 7px;
+    text-wrap: nowrap;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    transition: all 300ms linear;
+}
+
+.sarvicecard-row-four:hover {
+    border: 1px solid var(--color-yellow);
+    box-shadow: 5px 5px 0px 0px var(--color-yellow);
+}
+
 /* .bg-header-ellipes {} */
 
 .ellipes-custum {
@@ -84,7 +259,7 @@
     top: 20%;
     flex-shrink: 0;
     border-radius: 881px;
-    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    background: var(--Linear, linear-gradient(125deg, var(--color-yellow) 0%, #FFA723 100%));
     filter: blur(239px);
 }
 
@@ -190,6 +365,67 @@
     top: 2%;
 }
 
+.prize-wifi {
+    max-width: 52px;
+    max-height: 50px;
+    position: absolute;
+    right: 27%;
+    top: 0.5%;
+    z-index: -1;
+}
+
+.greenfulltrinagle {
+    position: absolute;
+    max-width: 74px;
+    max-height: 63px;
+    top: 3%;
+    left: 0;
+}
+
+.prize-candy {
+    max-width: 52px;
+    max-height: 70px;
+    position: absolute;
+    left: 7%;
+    top: 70%;
+    z-index: -1;
+}
+
+.wifiwebfow {
+    position: absolute;
+    bottom: 30%;
+    left: 19%;
+}
+
+.wifi-service {
+    position: absolute;
+    right: 4%;
+    max-width: 32px;
+    max-height: 31.815px;
+    transform: rotate(154deg);
+    top: 1%;
+}
+
+.service-canday {
+    position: absolute;
+    bottom: 9%;
+    left: 3%;
+}
+
+.dots-service {
+    position: absolute;
+    bottom: 16%;
+    right: 2%;
+}
+
+.bluewebflow-epic {
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+    max-width: 103px;
+    max-height: 103px;
+}
+
 .triangle-relevent {
     position: absolute;
     max-width: 82px;
@@ -199,16 +435,181 @@
     right: 0%
 }
 
+.ellippes-webflow-1 {
+    max-width: 233px;
+    max-height: 108px;
+    width: 100%;
+    height: 100%;
+    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    filter: blur(239px);
+    position: absolute;
+    top: 22%;
+    left: 0;
+    z-index: 1;
+}
+
+/* accordion  */
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 !important;
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0;
+    overflow-anchor: none;
+}
+
+.accordion {
+    --bs-accordion-color: unset !important;
+    --bs-accordion-bg: transparent !important;
+    --bs-accordion-border-color: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/arrow-accordion.png) !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-item {
+    margin-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E6E3DE !important;
+}
+
+.accordion-item:last-of-type {
+    border-bottom-right-radius: unset !important;
+    border-bottom-left-radius: unset !important;
+}
+
+.mw-879 {
+    max-width: 897px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: unset !important;
+    background-color: none !important;
+    box-shadow: none !important;
+}
+
+.card-relevent .relevent-card img {
+    width: 710px;
+    height: 598px;
+}
+
+.relevent-card img {
+    border-radius: 15px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px !important;
+    line-height: 12px !important;
+    width: 31px !important;
+    height: 11px !important;
+    content: "" !important;
+    border-radius: 34px;
+    opacity: 1 !important;
+    background-color: #D8D3C2 !important;
+}
+
+.slick-dots li {
+    margin: 0px 14px !important;
+}
+
+
+.slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    background-color: #3C3C3C !important;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.card-relevent.slick-current .relevent-card img {
+    width: 831.575px;
+    height: 700.369px;
+}
+
+.accordion-button::after {
+    width: 28px !important;
+    height: 28px !important;
+    background-image: url(../images/arrow-accordion.png) !important;
+}
+
+.accordion-button:focus {
+    box-shadow: unset !important;
+}
+
+.accordion-body {
+    padding: 0 !important;
+    padding-top: 16px !important;
+
+}
+
+.ellippes-webflow-2 {
+    max-width: 241px;
+    max-height: 110px;
+    width: 100%;
+    height: 100%;
+    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    filter: blur(239px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
 .contactus {
     padding: 16px 30px;
     border: 2px solid transparent;
     border-radius: 5px;
-    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    background: var(--Linear, linear-gradient(125deg, var(--color-yellow) 0%, #FFA723 100%));
     transition: all 300ms linear;
 }
 
 .contactus:hover {
     color: var(--color-gray);
+}
+
+.bookimg {
+    mix-blend-mode: multiply;
+}
+
+.callbook {
+    padding: 14px 32px;
+    width: 100%;
+    max-width: 160px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    transition: all 300ms linear;
+}
+
+.addon {
+    padding: 12px 23px;
+    border-radius: 39px;
+    border: 2px solid transparent;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.callbook:hover {
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.40);
+}
+
+.border-left-custum-book {
+    border-right: 2px solid rgba(0, 0, 0, 0.10);
 }
 
 .gap-41 {
@@ -358,6 +759,46 @@
     }
 }
 
+@media (min-width:768px) {
+    .getstarted {
+        border-radius: 5px;
+        border: 2px solid var(--color-gray);
+        padding: 16px 80px;
+        background-color: transparent;
+    }
+
+    .card-price-plan {
+        padding: 56px 32px 32px 31px;
+        border-radius: 15px;
+        border: 1px solid var(--BLACK, #3C3C3C);
+        transition: all 300ms linear;
+    }
+
+    .sarvicecard-row-one {
+        padding: 14px 32px;
+    }
+
+    .sarvicecard-row-two {
+        padding: 14px 32px;
+    }
+
+    .sarvicecard-row-three {
+        padding: 14px 32px;
+    }
+
+    .sarvicecard-row-four {
+        padding: 14px 32px;
+    }
+
+    .card-prize-upper-card {
+        padding: 12px 57px;
+        border-radius: 45px;
+        transition: all 300ms linear;
+        border: 1px solid var(--color-gray);
+        background: #FFF9E4;
+    }
+}
+
 @media (min-width:992px) {
     .bluedotblack {
         position: absolute;
@@ -434,5 +875,71 @@
         max-height: 169px;
     }
 
+    .prices-longpepic {
+        position: absolute;
+        top: 3%;
+        max-width: 246px;
+        max-height: 197px;
+        left: 0;
+    }
 
+    .prize-wifi {
+        max-width: 67px;
+        max-height: 64px;
+        position: absolute;
+        right: 27%;
+        top: 3%;
+        z-index: -1;
+    }
+
+    .prize-candy {
+        max-width: 52px;
+        max-height: 70px;
+        position: absolute;
+        left: 7%;
+        top: 58%;
+        z-index: -1;
+    }
+
+    .greenfulltrinagle {
+        position: absolute;
+        max-width: 153px;
+        max-height: 138px;
+        top: 3%;
+        left: 13%;
+    }
+
+    .bluewebflow-epic {
+        position: absolute;
+        right: 10%;
+        bottom: 0%;
+        max-width: 196px;
+        max-height: 196px;
+    }
+
+    .pollygon-service {
+        position: absolute;
+        left: 8%;
+        top: 15%;
+        max-width: 50px;
+        max-height: 73.529px;
+    }
+
+    .wifi-service {
+        position: absolute;
+        right: 22%;
+        max-width: 67px;
+        max-height: 64.815px;
+        transform: rotate(154deg);
+        top: 13%;
+    }
+}
+
+@media (min-width:1200px) {
+    .getstarted {
+        border-radius: 5px;
+        border: 2px solid var(--color-gray);
+        padding: 16px 103px;
+        background-color: transparent;
+    }
 }
