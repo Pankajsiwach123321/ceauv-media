@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
     list-style-type: none;
 }
 
@@ -136,6 +137,8 @@
     border-radius: 5px;
     border: 2px solid var(--color-gray);
     padding: 16px 50px;
+    width: 100%;
+    text-align: center;
     background-color: transparent;
 }
 
@@ -150,6 +153,7 @@
 .card-price-plan {
     padding: 56px 32px 32px 31px;
     border-radius: 15px;
+    text-wrap: nowrap;
     border: 1px solid var(--BLACK, #3C3C3C);
     transition: all 300ms linear;
     height: 100%;
@@ -256,7 +260,8 @@
     max-width: 881px;
     width: 100%;
     height: 83px;
-    top: 20%;
+    top: 62%;
+    z-index: -1;
     flex-shrink: 0;
     border-radius: 881px;
     background: var(--Linear, linear-gradient(125deg, var(--color-yellow) 0%, #FFA723 100%));
@@ -448,6 +453,13 @@
     z-index: 1;
 }
 
+.price-plan-book-card img {
+    height: 100%;
+    max-width: 191px;
+    height: 100%;
+    max-height: 150px;
+}
+
 /* accordion  */
 .accordion-button {
     position: relative;
@@ -455,7 +467,7 @@
     align-items: center;
     width: 100%;
     padding: 0 !important;
-    font-size: 1rem;
+    font-size: var(--fs-md) !important;
     color: var(--bs-accordion-btn-color);
     text-align: left;
     background-color: transparent !important;
@@ -496,11 +508,6 @@
     box-shadow: none !important;
 }
 
-.card-relevent .relevent-card img {
-    width: 710px;
-    height: 598px;
-}
-
 .relevent-card img {
     border-radius: 15px;
 }
@@ -526,7 +533,27 @@
     background-color: #3C3C3C !important;
 }
 
-.slick-track {
+.slick-dots {
+    bottom: -50px !important;
+}
+
+.blue-accordion {
+    max-width: 100px;
+    max-height: 99.254px;
+    position: absolute;
+    left: 0%;
+    top: -5%;
+}
+
+.greent-accordion {
+    position: absolute;
+    right: 0%;
+    max-width: 72px;
+    max-height: 61px;
+    bottom: 5%;
+}
+
+#relevent .slick-track {
     position: relative;
     top: 0;
     left: 0;
@@ -537,7 +564,7 @@
     align-items: center !important;
 }
 
-.card-relevent.slick-current .relevent-card img {
+#relevent .card-relevent.slick-current .relevent-card img {
     width: 831.575px;
     height: 700.369px;
 }
@@ -546,6 +573,16 @@
     width: 28px !important;
     height: 28px !important;
     background-image: url(../images/arrow-accordion.png) !important;
+}
+
+.arlene {
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.coustmer-card:hover {
+    border: 1px solid var(--color-yellow);
+    box-shadow: 10px 10px 0px 0px var(--color-yellow);
 }
 
 .accordion-button:focus {
@@ -597,6 +634,47 @@
     transition: all 300ms linear;
 }
 
+.gap-13 {
+    gap: 13px;
+}
+
+.backto-top {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    animation: updown 1s linear infinite backwards alternate;
+}
+
+.load-reload {
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    border-top: 2px solid var(--color-gray);
+    animation: moveit 2s infinite;
+}
+
+@keyframes moveit {
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
 .addon {
     padding: 12px 23px;
     border-radius: 39px;
@@ -619,6 +697,12 @@
 .py-27-28 {
     padding-top: 27px;
     padding-bottom: 28px;
+}
+
+.accordion-canady {
+    position: absolute;
+    top: 0%;
+    right: 6%;
 }
 
 .under-nav::after {
@@ -650,6 +734,19 @@
     background: var(--500, #80765D);
 }
 
+.coustmer-card {
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    transition: all 300ms linear;
+    border: 1px solid var(--color-gray);
+    max-width: 891px;
+}
+
+.coustmer-card img {
+    border-radius: 276px;
+}
+
 /* navbar-responsive */
 .over-layer {
     position: absolute;
@@ -673,30 +770,35 @@
 }
 
 .fixer2 {
-    transform: rotate(48deg) translate(3px, -1px);
+    transform: rotate(48deg) translate(9px, 5px);
 }
 
 .fixer3 {
-    transform: rotate(-45deg) translate(13px, -10px);
+    transform: rotate(-45deg) translate(10px, -7px);
+}
+
+.nav-bg {
+    background-color: #2F2E2E;
+    border-radius: 37px;
 }
 
 @media (max-width:991.9px) {
     label[id="nav"] {
-        width: 36px;
-        height: 24px;
+        width: 46px;
+        height: 46px;
         cursor: pointer;
         position: absolute;
-        top: 35px;
-        right: 15px;
+        top: 22px;
+        right: 7px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: column;
         align-items: center;
         z-index: 4;
     }
 
     label[id="nav"]>span {
-        width: 100%;
+        width: 28px;
         height: 2px;
         border-radius: 5px;
         background-color: var(--color-white);
@@ -759,6 +861,13 @@
     }
 }
 
+@media (min-width:576px) {
+    .card-relevent .relevent-card img {
+        width: 710px;
+        height: 598px;
+    }
+}
+
 @media (min-width:768px) {
     .getstarted {
         border-radius: 5px;
@@ -772,6 +881,12 @@
         border-radius: 15px;
         border: 1px solid var(--BLACK, #3C3C3C);
         transition: all 300ms linear;
+        padding: 56px 32px 32px 31px;
+        border-radius: 15px;
+        text-align: center;
+        border: 1px solid var(--BLACK, #3C3C3C);
+        transition: all 300ms linear;
+        height: 100%;
     }
 
     .sarvicecard-row-one {
@@ -796,6 +911,24 @@
         transition: all 300ms linear;
         border: 1px solid var(--color-gray);
         background: #FFF9E4;
+    }
+
+    .arlene {
+        max-width: 184px;
+        max-height: 191px;
+    }
+
+    .coustmer-card {
+        padding: 54px 58px;
+        border-radius: 15px;
+        border: 1px solid transparent;
+        transition: all 300ms linear;
+        border: 1px solid var(--color-gray);
+        max-width: 891px;
+    }
+
+    .gap-md-44 {
+        gap: 44px;
     }
 }
 
@@ -932,6 +1065,22 @@
         max-height: 64.815px;
         transform: rotate(154deg);
         top: 13%;
+    }
+
+    .greent-accordion {
+        position: absolute;
+        right: 0%;
+        max-width: 199.68px;
+        max-height: 169.739px;
+        bottom: 5%;
+    }
+
+    .blue-accordion {
+        max-width: 168px;
+        max-height: 166px;
+        position: absolute;
+        left: 0%;
+        top: -5%;
     }
 }
 
