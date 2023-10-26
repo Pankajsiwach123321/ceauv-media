@@ -70,19 +70,19 @@
                                         alt="navlogo"></a>
                             </li>
 
-                            <li class="position-relative small-screen mt-0"><a href="#"
+                            <li class="position-relative small-screen mt-0"><a href="#home"
                                     class="text-decoration-none color-white ff-main fw-normal lh-24 under-nav position-relative finish">Home</a>
                             </li>
-                            <li class="position-relative small-screen"><a href="#"
+                            <li class="position-relative small-screen"><a href="#about"
                                     class="text-decoration-none color-white ff-main fw-normal lh-24 under-nav position-relative finish">About</a>
                             </li>
-                            <li class="position-relative small-screen"><a href="#"
+                            <li class="position-relative small-screen"><a href="#services"
                                     class="text-decoration-none color-white ff-main fw-normal lh-24 under-nav position-relative finish">Services</a>
                             </li>
-                            <li class="position-relative small-screen"><a href="#"
+                            <li class="position-relative small-screen"><a href="#pricing"
                                     class="text-decoration-none color-white ff-main fw-normal lh-24 under-nav position-relative finish">Pricing</a>
                             </li>
-                            <li class="position-relative small-screen"><a href="#"
+                            <li class="position-relative small-screen"><a href="#faq"
                                     class="text-decoration-none color-white ff-main fw-normal lh-24 under-nav position-relative finish">FAQ</a>
                             </li>
                             <li class="ms-lg-5  d-block d-lg-none position-relative small-screen"><a href="#"
@@ -100,7 +100,7 @@
             </div>
         </nav>
         <div
-            class="d-flex align-items-center flex-column justify-content-center flex-grow-1 bg-header position-relative z-1">
+            class="d-flex align-items-center flex-column justify-content-center flex-grow-1 bg-header position-relative z-1" id="home">
             <div class="container d-flex align-items-center flex-column justify-content-center position-relative">
                 <h1 class="color-white fs-3xl fw-semibold ff-main mb-0 mx-802 text-center" data-aos="fade-down">Our
                     Agency Brings Your Vision
@@ -183,7 +183,7 @@
         <img src="./assets/images/green-Triangle.png" alt="green-Triangle" class="triangle-relevent">
     </section>
     <!-- services  -->
-    <section class="bg-header pt-5 pb-5 position-relative overflow-hidden">
+    <section class="bg-header pt-5 pb-5 position-relative overflow-hidden" id="services">
         <div class="container pt-sm-5 pt-4 pb-5">
             <h2 class="color-white ff-main fs-xl fw-semibold text-center mb-0 mt-sm-4" data-aos="fade-down"
                 data-aos-duration="1000">Services</h2>
@@ -306,7 +306,7 @@
         <img src="./assets/images/dots-services.png" alt="dots-dotsepic" class="dots-service">
     </section>
     <!-- price plan  -->
-    <section class="bg-esport position-relative z-1">
+    <section class="bg-esport position-relative z-1" id="pricing">
         <div class="container pt-5">
             <h2 class="color-gray ff-main fs-xl fw-semibold text-center mb-0 pt-5" data-aos="fade-down"
                 data-aos-duration="1000">Pricing Plans</h2>
@@ -512,7 +512,7 @@
         <div class="ellippes-webflow-2 d-none d-lg-block"></div>
     </section>
     <!-- customer-says  -->
-    <section class="bg-main pt-sm-5 pt-4 pb-sm-5 pb-4 ">
+    <section class="bg-main pt-sm-5 pt-4 pb-sm-5 pb-4 " id="about">
         <div class="conatiner pt-sm-5 pt-4 ">
             <h2 class="color-gray ff-main fs-xl fw-semibold text-center mb-0 pt-sm-5" data-aos="fade-down"
                 data-aos-duration="1000">What Our Customer Say</h2>
@@ -695,7 +695,7 @@
         </div>
     </section>
     <!-- accordion  -->
-    <section class="bg-main pt-sm-5 pt-4 pb-sm-5 pb-4 position-relative">
+    <section class="bg-main pt-sm-5 pt-4 pb-sm-5 pb-4 position-relative" id="faq">
         <div class="container pt-sm-5 pt-4 pb-sm-5 pb-4">
             <h2 class="color-gray ff-main fs-xl fw-semibold text-center mb-0 pt-sm-5 pt-4" data-aos="fade-down"
                 data-aos-duration="1000">Frequently Asked Questions</h2>
@@ -968,6 +968,13 @@
                     breakpoint: 400,
                     settings: {
                         slidesToShow: 1.65,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 389,
+                    settings: {
+                        slidesToShow: 1,
                         slidesToScroll: 1,
                     }
                 },
