@@ -821,17 +821,18 @@
     width: 21px !important;
 }
 
-.nav-bg {
-    background-color: #2F2E2E;
-    border-radius: 37px;
-}
-
-.nav-2 {
-    width: 46px !important;
-    height: 46px !important;
-}
 
 @media (max-width:991.9px) {
+    .nav-bg {
+        background-color: #2F2E2E;
+        border-radius: 37px;
+    }
+
+    .nav-2 {
+        width: 46px !important;
+        height: 46px !important;
+    }
+
     .nav {
         width: 28px;
         height: 19px;
