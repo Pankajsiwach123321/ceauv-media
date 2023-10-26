@@ -10,6 +10,7 @@ let fix3 = document.querySelector(".fix3");
 nav.addEventListener("click", function () {
     menubar.classList.toggle("left-0")
     nav.classList.toggle("nav-bg")
+    nav.classList.toggle("nav-2")
     fix1.classList.toggle("fixer1")
     fix2.classList.toggle("fixer2")
     fix3.classList.toggle("fixer3")

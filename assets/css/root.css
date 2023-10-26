@@ -10,20 +10,28 @@
     /* color  */
     --color-white: #FAFAFA;
     --color-white-2: #FAF6F0;
+    --color-white-bg: #FFF9E4;
+    --color-bgmain:#FFFCF6;
     --color-primery-white: #E7E6E5;
     --color-secandary-white: #E5E5E5;
     --color-tersiary-white: #E6E1CE;
     --color-white-less: #FFF9E4;
     --color-gray: #3C3C3C;
+    --color-nav: #3A3939;
     --color-primery-gray: #50504F;
     --color-secandary-gray: #504F4D;
     --color-tersiary-gray: #656565;
     --color-gray-less: #504F4F;
     --color-gray-carnic: #4D4C4A;
+    --color-gary-bed:#4F4E4E;
     --color-grani: #9D9C99;
     --color-light-gary: #BABABA;
     --color-light-gary-2: #B9B9B9;
     --color-yellow: #FFCF23;
+    --color-main-less: #242323;
+    --color-row:#656565;
+    --color-bb-c:#D8D3C2;
+    --color-hove:#988353;
     --ff-main: Montserrat Alternates;
     --ff-primery: Raleway;
 }
@@ -127,7 +135,7 @@
 @media (min-width:576px) {
     :root {
         --fs-sm: 16px;
-        --fs-md: 16px ;
+        --fs-md: 16px;
         --fs-lg: 24px;
         --fs-xl: 23px;
         --fs-2xl: 44px;
@@ -138,13 +146,14 @@
 @media (min-width:768px) {
     :root {
         --fs-sm: 16px;
-        --fs-md: 18px ;
+        --fs-md: 18px;
         --fs-lg: 24px;
         --fs-xl: 30px;
         --fs-2xl: 44px;
         --fs-3xl: 62px;
     }
 }
+
 @media (min-width:992px) {
     :root {
         --fs-sm: 16px;
@@ -155,6 +164,7 @@
         --fs-3xl: 62px;
     }
 }
+
 @media (min-width:1200px) {
     :root {
         --fs-sm: 16px;
